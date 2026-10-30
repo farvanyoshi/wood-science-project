@@ -1,0 +1,35 @@
+name: build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test the analysis pipeline
+        run: make test
+
+      - name: Check that processed data and the verification report are up to date
+        run: |
+          make verify
+          git diff --exit-code -- data/processed docs
+
+      - uses: typst-community/setup-typst@v4
+        with:
+          typst-version: "0.15.1"
+
+      - name: Compile paper and poster
+        run: make paper poster
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pdfs
+          path: build/*.pdf
