@@ -1,0 +1,3 @@
+name,source,x,y,n,slope,intercept,r2,x_min,x_max
+flexural_stiffness,vl-5h-seg2_load-deflection_linear.csv,deflection_mm,load_kn,34,6.23897,1.85165,0.986931,0.410714,0.856
+flexural_modulus,vl-5h-seg2_stress-strain_linear.csv,strain,stress_mpa,36,5198.74,28.5802,0.985344,0.00788753,0.0165138

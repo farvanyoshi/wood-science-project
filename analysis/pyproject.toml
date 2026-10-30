@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "woodlab"
+version = "1.0.0"
+description = "Data pipeline for the densified-wood science project"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+woodlab = "woodlab.cli:main"
+
+[tool.setuptools]
+packages = ["woodlab"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
