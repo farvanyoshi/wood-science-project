@@ -84,3 +84,7 @@ used for the 6 and 7 MPa blocks. Every difference from the originally submitted 
 - With Rust: `cargo install --locked typst-cli`
 - macOS: `brew install typst`. Windows: `winget install --id Typst.Typst`
 - Check the install with `typst --version`.
+
+## License
+
+[MIT](LICENSE)
