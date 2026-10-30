@@ -3,6 +3,8 @@
 A senior-year science project by Nirvan Joshi and Nathaniel Erickson, written up as an APA research paper and a
 presentation board. Both are typeset with [Typst](https://typst.app).
 
+**📄 [Download the paper and board PDFs](https://github.com/farvanyoshi/wood-science-project/releases/latest)**
+
 Blocks of Southern Yellow Pine were **partially delignified** by boiling in an alkaline sodium hydroxide / sodium
 sulfite bath (after Song et al., 2018), neutralized in citric acid, and then **hot-pressed** at 3–7 MPa in a
 home-built heated steel press. The densified wood was cut into segments and tested for density, three-point
