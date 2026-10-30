@@ -1,0 +1,11 @@
+#import "/lib/style.typ": apa-figure, num, qty, numrange, qtyrange
+#import "/lib/data.typ": fixed
+#import "/lib/values.typ": *
+= Conclusion
+Wood is used in almost every major construction and assembly process. But to make larger buildings ever more efficiently, wood's low density, strength, and anisotropy present a weak link. Our process offers a solution to many of these issues, providing a potential pathway to stronger natural planks that are still sustainable and renewable. 
+
+The treated wood showed great potential for a viable high-strength material, demonstrating about #fixed(mor-gain, 1) times the modulus of rupture of typical untreated pine samples (obtained from a natural wood sample test and comparison to literature values). Further research is necessary to exactly relate impact, flexural, and other types of strength to applied pressure and dissolution time. Still, the treated wood outperformed normal wood and even aluminum in strength-to-weight ratio results, achieving #q(best-sw, 0, "kN m/kg") and meeting the engineering goal of this paper. The strength of the most optimized blocks were on par with current scientific research in this area. This paper also explored a cheaper method to make densified wood than the generally used expensive industrial process.
+
+Sources of error were largely from the variable nature of wood and equipment imprecision. Wood, being a biological material, has vastly different properties between samples and species. Furthermore, citric acid may have contributed to potential error by prematurely triggering wood stabilization.
+
+Though densified wood rapidly moves closer to application, it is still in its early years of development, and further experimentation is vital. With access to industrial-grade materials and equipment, this experiment could be re-done with variable lignin dissolution amounts, higher pressures, and examining other variables. In the future, these processes could lead to densified wood being used as an eco-friendly, cheaper building material with a myriad of potential applications.

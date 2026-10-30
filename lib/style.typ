@@ -3,6 +3,7 @@
 
 #import "@preview/versatile-apa:7.2.0": apa-figure
 #import "@preview/lilaq:0.5.0" as lq
+#import "@preview/typsium:0.3.1": ce
 #import "@preview/unify:0.7.1": num, qty, unit, numrange, qtyrange
 
 // Default look for all diagrams: y axis from zero, one x tick per MPa level.
@@ -10,9 +11,11 @@
   show: lq.set-diagram(
     ylim: (0, auto),
     xaxis: (mirror: false, tick-distance: 1, subticks: none),
-    yaxis: (mirror: false),
+    yaxis: (mirror: false, exponent: 0),
     width: 90%,
   )
   show lq.selector(lq.diagram): set align(center)
+  // keep each figure (caption + plot) together on one page
+  show figure: set block(breakable: false)
   body
 }
