@@ -1,0 +1,2 @@
+block_id,segment_id,quantities,reason
+2,2,mor_mpa;sw_knm_per_kg,"4 MPa segment 2: MOR (386 MPa) roughly double every other 4 MPa segment; excluded from the ""no outlier"" statistics as in the original paper"
