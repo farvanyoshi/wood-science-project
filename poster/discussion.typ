@@ -1,0 +1,16 @@
+#import "/lib/style.typ": apa-figure, num, qty, numrange, qtyrange
+#import "/lib/data.typ": stat, fixed
+#import "/lib/values.typ": *
+A strong negative linear correlation between the sample thickness and the applied pressure was expected. However, no such trend was seen. This is most likely due to the amount of air in each block and springback. More porous blocks would have compressed more readily than blocks with less air or having air sealed up. Springback likely also contributed, as even hot-pressing cannot eliminate it, only mitigate it. Very high pressures cause cellulose fibers to behave elastically due to internal stress, and thus elastic recovery may have overcome hot pressing in those samples.
+
+The mean maximum load of wood segments notably decreased at 5 and #qty(6, "MPa"), whereas at #qty(7, "MPa") it rebounded. Load strength is not normalized and cannot account for varying block dimensions. So, load strength was not expected to show strong correlation. Interestingly, density peaked at #qty(6, "MPa"), despite having the lowest load strength. The density at #qty(3, "MPa") was far below the rest, even beneath standard pine (#qty(0.49, "g/cm^3")). Lignin removal and water evaporation during hot pressing likely caused a loss of mass; combined with the greater thickness at #qty(3, "MPa"), the lower density is reasonable. The drop-off at #qty(7, "MPa") was likely due to its increased thickness explained before.
+
+\ \ \ \
+
+It was concluded that the optimal pressure for maximizing density likely fell around #qty(6, "MPa"). Modulus of Rupture appears to show a positive trend, but an abnormally high value at #qty(4, "MPa") due to an outlier. When said outlier was removed, the data became much clearer. Nevertheless, all three figures demonstrated a clear increase in MOR with increasing pressure, suggesting that higher compressive loads may yield even better results. In optimizing strength-to-weight ratio, the #qty(7, "MPa") treatment appeared to be the most successful. 
+
+Each segment after testing showed essentially the same breaking pattern. This pattern involved a break at what was originally the bottom that then propagated up the segment until reaching the point of contact, snapping any fibers in its path.
+
+It is key that the high strength-to-weight ratio that makes wood such an important building material was further amplified in the results of this paper, as intended. The peak average strength-to-weight ratio achieved here was #q(best-sw, 0, "kN m/kg") at a compression of #qty(best-pressure, "MPa"). For comparison, the strength-to-weight ratio of 6061 aluminum is roughly #qty(aluminium-sw, "kN m/kg").
+
+The mean impact energy of the pine that was used in this paper is around #qty(4, "J"). Thus, the 6 hour blocks showed little to no improvement in impact energy, and the 5 hour blocks showed a small enough improvement that could be ascribed to random chance. The 8 hour blocks, however, absorbed only #q(stat("impact_j", 8), 2, "J") on average. It was thus determined that moderate lignin dissolution had a negligible effect on the impact energy, and the densification process augments wood's strength without worsening its brittleness, while extended dissolution severely embrittles the wood.
